@@ -1,0 +1,180 @@
+body {
+    background: #f4f4f4;
+}
+
+
+.container-head {
+    min-height: 33px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #F56B6B;
+    padding: 10px;
+} 
+
+.container-head > li > a > {
+    padding-top: 6px !important;
+    padding-bottom: 10px !important;
+    height: 33px;
+    color: #f4f4f4 !important;
+}
+
+.container-head .nav-link {
+    color: #f4f4f4 !important;
+}
+
+
+.fs-4 {
+    color: #f4f4f4;
+}
+
+
+/* Utility classes */
+.main-color-bg{
+    background-color:#F56B6B !important;
+    border: #F56B6B !important;
+    color: #ffffff !important;
+}
+
+.sl {
+    font-size: 20px;
+}
+
+.mt {
+    margin-top: 1em;
+}
+
+.active {
+    background: #e06666;
+    border-radius: 1px;
+    color: #f4f4f4;
+}
+
+.flex {
+    display: flex;
+}
+
+.mf {
+    margin-left: 1em;
+}
+
+
+/*Header */
+#header {
+    background: #444444;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #e06666;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropdown-button {background-color: #F56B6B;}
+
+
+/* beadcrumb */
+.beadcrumb{
+    background: #cccccc;
+    color: #333333;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.beadcrumb .activee {
+    list-style: none;
+}
+
+.beadcrumb li {
+    margin: 3px;
+}
+
+.beadcrumb a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+/* List group */
+#main .list-group {
+    margin-bottom: 1em;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background: #333333;
+    color: #ffffff;
+}
+
+.panel-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+/* Panel Body */
+.panel-body .col-md-3 {
+    padding: 12px;
+    background-color: #cccccc;
+    color: #333333;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.panel-heading {
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.mb {
+    margin-bottom: 1em;
+    justify-items: center;
+}
+
+.mt {
+    margin-top: 1em;
+}
+
+/* Footer */
+#footer {
+    padding: 30px;
+    text-align: center;
+    font-weight:400;
+    background:#333333;
+    margin-top: 1em;
+    color: #ffffff;
+}
